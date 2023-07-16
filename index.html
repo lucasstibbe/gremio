@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um jogador</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="suarez" data-name="suarez" data-description=" é um futebolista uruguaio que atua como centroavante. Atualmente joga pelo Grêmio e pela Seleção Uruguaia. Muitas vezes considerado um dos melhores jogadores do mundo e também um dos melhores centroavantes da história">
+            <img
+              src="./src/gremio/Suárez.jpg"
+              alt="Suárez"
+            />
+          </li>
+          <li class="personagem" id="bitello" data-name="bitello" data-description="João Paulo de Souza Mares, também conhecido como Bitello (Formosa do Oeste-PR, Brasil, 07 de janeiro de 2000).">
+            <img
+              src="./src/gremio/Bitello.jpg"
+              alt="Bitello"
+            />
+          </li>
+
+          <li class="personagem" id="carballo" data-name="carballo" data-description="Felipe Ignacio Carballo Ares, também conhecido como Carballo (Montevidéu, Uruguai, 04 de outubro de 1996).">
+            <img
+              src="./src/gremio/Carballo.jpg"
+              alt="Carballo"
+            />
+          </li>
+
+          <li class="personagem" id="diego souza" data-name="diego souza" data-description="Diego de Souza Andrade, mais conhecido apenas como Diego Souza (Rio de Janeiro, 17 de junho de 1985), é um futebolista brasileiro que atua como centroavante. Atualmente está sem clube.">
+            <img
+              src="./src/gremio/Diego Souza.jpg"
+              alt="Diego Souza"
+            />
+          </li>
+
+          <li class="personagem" id="ferreira" data-name="ferreirinha" data-description="Aldemir dos Santos Ferreira, conhecido apenas como Ferreira ou Ferreirinha (Dourados, 31 de dezembro de 1997) é um futebolista brasileiro que atua como ponta-esquerda. Atualmente joga pelo Grêmio.">
+            <img
+              src="./src/gremio/Ferreirinha.jpg"
+              alt="Ferreirinha"
+            />
+          </li>
+
+          <li class="personagem" id="geromel" data-name="geromel" data-description="Pedro Tonon Geromel (São Paulo, 21 de setembro de 1985) é um futebolista brasileiro que atua como zagueiro. Atualmente joga pelo Grêmio.">
+            <img
+              src="./src/gremio/Geromel.jpg"
+              alt="Geromel"
+            />
+          </li>
+
+          <li class="personagem" id="kannemann" data-name="kannemann" data-description="Walter Wally Kannemann, mais conhecido como Kannemann (Concepción del Uruguay, 14 de março de 1991) é um futebolista argentino que atua como zagueiro. Atualmente joga pelo Grêmio.">
+            <img
+              src="./src/gremio/kannemann.jpg"
+              alt="Kannemann"
+            />
+          </li>
+
+          <li class="personagem" id="villasanti" data-name="villasanti" data-description="Mathías Adalberto Villasanti Rolón (Caacupé - 24 de janeiro de 1997) é um jogador de futebol paraguaio que atua como meio-campista, mais especificamente como volante.">
+            <img
+              src="./src/gremio/Villasanti.jpg"
+              alt="Villasanti"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/gremio/Suárez.jpg"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Suárez</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            é um futebolista uruguaio que atua como centroavante. Atualmente joga pelo Grêmio e pela Seleção Uruguaia. Muitas vezes considerado um dos melhores jogadores do mundo e também um dos melhores centroavantes da história
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
